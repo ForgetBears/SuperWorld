@@ -1,0 +1,34 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+target 'SuperWorld' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SuperWorld
+
+  pod 'Alamofire', '~> 4.7.3'
+  pod 'RxSwift', '~> 4.4.0'
+  pod 'RxCocoa', '~> 4.4.0'
+  pod 'ObjectMapper', '~> 3.3.0'
+  pod 'SnapKit', '~> 4.2.0'
+  pod 'SDWebImage', '~> 5.0.0-beta3'
+  pod 'Kingfisher', '~> 4.10.1'
+  pod 'IQKeyboardManagerSwift', '~> 6.2.0'
+  pod 'SwiftyJSON', '~> 4.2.0'
+  pod 'DZNEmptyDataSet', '~> 1.8.1'
+  pod 'SwiftyUserDefaults', '~> 4.0.0-alpha.1'
+  pod 'SwiftLint', '~> 0.27.0'
+  pod 'R.swift'
+
+  target 'SuperWorldTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SuperWorldUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
